@@ -45,7 +45,7 @@ const onShow = (id) => {
         <div class="invoices">
 
             <div style="text-align: center;">
-                <p style="font-size: 40px; font-weight: 800; text-transform: uppercase;color: #000; margin-bottom:40px">My Invoice App</p>
+                <p style="font-size: 40px; font-weight: 800; text-transform: uppercase;color: #0300b7; margin-bottom:40px"> My Invoice App</p>
             </div>
 
             <div class="card__header">
@@ -96,7 +96,7 @@ const onShow = (id) => {
                 <div class="table--heading">
                     <p>ID</p>
                     <p>Date</p>
-                    <p>Number</p>
+                    <p>Invoice no.</p>
                     <p>Customer</p>
                     <p>Due Date</p>
                     <p>Total</p>

@@ -180,7 +180,7 @@ const onSave = () => {
 
                     </div>
                     <div style="padding: 10px 30px !important;">
-                        <button class="btn btn-sm btn__open--modal" @click="openModal()">Add New Line</button>
+                        <button class="btn btn-sm btn__open--modal" @click="openModal()">Add New Product</button>
                     </div>
                 </div>
 

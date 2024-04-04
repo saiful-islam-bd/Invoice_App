@@ -106,7 +106,7 @@ const deleteInvoice = (id) => {
 
                 <div class="invoice__header--item">
                     <div>
-                        <h2>Invoice To:</h2>
+                        <h3>Invoice To:</h3>
                         <p v-if="form.customer">{{ form.customer.firstname }} </p>
                     </div>
                     <div>
@@ -153,7 +153,7 @@ const deleteInvoice = (id) => {
 
                 <div class="invoice__subtotal">
                     <div>
-                        <h2>Thank you for your business</h2>
+                        <h3>Thank you for your business</h3>
                     </div>
                     <div>
                         <div class="invoice__subtotal--item1">
@@ -170,7 +170,7 @@ const deleteInvoice = (id) => {
 
                 <div class="invoice__total">
                     <div>
-                        <h2>Terms and Conditions</h2>
+                        <h3>Terms and Conditions</h3>
                         <p>{{ form.terms_and_conditions }} </p>
                     </div>
                     <div>
